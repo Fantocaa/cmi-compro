@@ -1,20 +1,27 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    `${srcDir}/components/**/*.{vue,js,ts}`,
-    `${srcDir}/layouts/**/*.vue`,
-    `${srcDir}/pages/**/*.vue`,
-    `${srcDir}/composables/**/*.{js,ts}`,
-    `${srcDir}/plugins/**/*.{js,ts}`,
-    `${srcDir}/utils/**/*.{js,ts}`,
-    `${srcDir}/App.{js,ts,vue}`,
-    `${srcDir}/app.{js,ts,vue}`,
-    `${srcDir}/Error.{js,ts,vue}`,
-    `${srcDir}/error.{js,ts,vue}`,
-    `${srcDir}/app.config.{js,ts}`,
+    `./components/**/*.{vue,js,ts}`,
+    `./layouts/**/*.vue`,
+    `./pages/**/*.vue`,
+    `./composables/**/*.{js,ts}`,
+    `./plugins/**/*.{js,ts}`,
+    `./utils/**/*.{js,ts}`,
+    `./App.{js,ts,vue}`,
+    `./app.{js,ts,vue}`,
+    `./Error.{js,ts,vue}`,
+    `./error.{js,ts,vue}`,
+    `./app.config.{js,ts}`,
   ],
   theme: {
     extend: {},
+    colors: {
+      bgcmi: "#121212",
+      bgcmi2: "#181818",
+      text: "#1e1e1e",
+      text2: "#EEEDED",
+      orangecmi: "#F9A73E",
+    },
   },
   daisyui: {
     themes: [],

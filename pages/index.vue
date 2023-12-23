@@ -1,18 +1,16 @@
 <script setup lang="ts">
-import navbar from "../components/static/navbar.vue";
+import Navbar from "../components/static/Navbar.vue";
+import Footer from "../components/static/Footer.vue";
 
 const route = useRoute();
 </script>
 
 <template>
-  <div>
-    <navbar />
-    <!-- <h1>Nuxt Routing set up successfully!</h1>
-    <p>Current route: {{ route.path }}</p>
-    <a href="https://nuxt.com/docs/getting-started/routing" target="_blank">Learn more about Nuxt Routing</a> -->
+  <div class="bg-bgcmi text-text2">
+    <Navbar />
     <div class="flex justify-between">
-      <h1>Home</h1>
-      <button>meong</button>
+      <div class="container w-full mx-auto px-16">Home</div>
     </div>
+    <Footer />
   </div>
 </template>

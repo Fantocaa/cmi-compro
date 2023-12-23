@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar bg-base-100">
+  <div class="navbar bg-transparent px-16 container mx-auto">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -33,14 +33,14 @@
           <li><a>Item 3</a></li>
         </ul>
       </div>
-      <a class="btn btn-ghost text-xl">daisyUI</a>
+      <a class="btn btn-ghost text-xl">PT. CMI</a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><NuxtLink to="/index">Home</NuxtLink></li>
-        <li><NuxtLink to="/index">Services</NuxtLink></li>
-        <li><NuxtLink to="/index">Contact</NuxtLink></li>
-        <li><NuxtLink to="/index">About</NuxtLink></li>
+        <li><NuxtLink to="/">Home</NuxtLink></li>
+        <li><NuxtLink to="/services">Services</NuxtLink></li>
+        <li><NuxtLink to="/contacts">Contact</NuxtLink></li>
+        <li><NuxtLink to="/about">About</NuxtLink></li>
       </ul>
     </div>
     <div class="navbar-end">
